@@ -8,7 +8,7 @@ This site predicts that *the person has heart disease or not*
 """)
 def user_input_features():
     
-    st.write("""**1. Select Age :**""") 
+    st.write("""**1. Select Age -**""") 
     age = st.slider('', 0, 100, 25)
     st.write("""**You selected this option **""",age)
     
