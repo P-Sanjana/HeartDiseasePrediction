@@ -12,7 +12,7 @@ def user_input_features():
     age = st.slider('', 0, 100, 25)
     st.write("""**You selected this option **""",age)
     
-    st.write("""**2. Select Gender :**""")
+    st.write("""**2. Select Gender -**""")
     sex = st.selectbox("(1=Male, 0=Female)",["1","0"])
     st.write("""**You selected this option **""",sex)
     
